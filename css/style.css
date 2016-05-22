@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "Microsoft YaHei";
+}
+.main{
+	width: 300px;
+	height: 300px;
+	left:50%;
+	top:50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	position: absolute;
+}
+.Mycanvas{
+    -o-transform:  transform 6s;
+	-ms-transform:  transform 6s;
+	-moz-transform:  transform 6s;		
+	-webkit-transform:  transform 6s;
+	transition: transform 6s;
+	-o-transform-origin:  50% 50%;
+	-ms-transform-origin:  50% 50%;
+	-moz-transform-origin:  50% 50%;		
+	-webkit-transform-origin:  50% 50%;
+	transform-origin: 50% 50%;
+}
+.sub_Mycanvas{
+	left: 0;
+	top: 0;
+	position:absolute;
+}
+.btn{
+	width: 70px;
+	height: 70px;
+	left: 115px;
+	top: 115px;
+	position: absolute;
+	cursor: pointer;
+	border: none;
+	border-radius: 100%;
+	outline: none;
+	background-color: red;
+	opacity: 0;
+}
