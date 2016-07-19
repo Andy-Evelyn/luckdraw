@@ -52,7 +52,7 @@
 
 		createCirText:function(){
 		    var step = 30*Math.PI/180;
-		    for ( var i = 0; i < 12; i++) {
+		    for (var i = 0; i < 12; i++){
 		    	this.context.save();
 		    	this.context.beginPath();
 		        this.context.translate(this.widths/2,this.heights/2);

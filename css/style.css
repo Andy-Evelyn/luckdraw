@@ -13,10 +13,10 @@
 	position: absolute;
 }
 .Mycanvas{
-    -o-transform:  transform 6s;
-	-ms-transform:  transform 6s;
-	-moz-transform:  transform 6s;		
-	-webkit-transform:  transform 6s;
+    -o-transition:  transform 6s;
+	-ms-transition:  transform 6s;
+	-moz-transition:  transform 6s;		
+	-webkit-transition:  transform 6s;
 	transition: transform 6s;
 	-o-transform-origin:  50% 50%;
 	-ms-transform-origin:  50% 50%;
